@@ -1,0 +1,80 @@
+main h1
+{
+    text-align: center;
+    border-bottom: 3px solid goldenrod;
+    padding-bottom: 60px;
+    margin: 1.5rem;
+
+}
+
+.novostiNaslov {
+    margin: 0% 20%;
+}
+
+.novostiCards{
+    background-color: rgb(241, 241, 241);
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0% 10%;
+    gap: 100px;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.button{
+    cursor: pointer;
+    border: 5px solid whitesmoke;
+    color: goldenrod;
+    text-shadow: 1px 1px black;
+    font-weight: bold;
+    text-align: center;
+    border-radius: 100%;
+    box-shadow: 0 5px 15px black;
+    width: 250px;
+    height: 250px;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+#novost_1{
+    background-image: url("../Image/novost1.jpg");
+    background-size:cover;
+    background-position: center center;
+}
+#novost_2{
+    background-image: url("../Image/novost2.jpg");
+    background-size:cover;
+    background-position: center center;
+}
+#novost_3{
+    background-image: url("../Image/novost3.jpg");
+    background-size:cover;
+    background-position: center center;
+}
+
+.footerBg {
+    margin-top: 20px;
+    background-image: url(../Image/zaiskri-bg.jpg);
+    width: 100%;
+    height: 20rem;
+    position: relative;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.footerBg h1:first-child{
+    text-transform: uppercase;
+    color:white;
+}
+.footerBg h1{
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    font-size: 46px;
+    color:rgb(150, 17, 70);
+}

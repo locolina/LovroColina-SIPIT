@@ -1,0 +1,88 @@
+.bgNovost{
+    width: 100%;
+    height: 35vh;
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.naslovNovost h1
+{
+    text-align: center;
+    border-bottom: 3px solid goldenrod;
+    padding-bottom: 20px;
+    margin: 1.5rem;
+
+}
+
+.naslovNovost{
+    margin: 0% 20%;
+}
+
+.bgNovost h1{
+    padding: 0% 25%;
+    color: white;
+}
+
+.contentNovost
+{
+    padding: 2% 15%;
+}
+
+.contentNovost p{
+    font-size: large;
+    font-weight: bold;
+}
+
+.footerBg {
+    background-image: url(../Image/zaiskri-bg.jpg);
+    width: 100%;
+    height: 15rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-size: cover;
+}
+
+.footerBg h1:first-child{
+    text-transform: uppercase;
+    color:white;
+}
+.footerBg h1{
+    text-transform: uppercase;
+    text-shadow: 2px 2px black;
+    font-size: 46px;
+    color:rgb(150, 17, 70);
+}
+
+.galleryImg{
+    margin: .3rem;
+    margin-top: 3rem;
+}
+
+.galleryImg img{
+    width: 300px;
+    height: auto;
+    border-radius: 3%;
+}
+
+.galleryNovost{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 1% 10%;
+}
+
+.videoNovost{
+    display: flex;
+    align-items:center;
+    justify-content: center;
+    background-size: cover;
+    padding: 1% 10%;
+}
+
+.videoNovost video{
+    width: 40vw;
+}

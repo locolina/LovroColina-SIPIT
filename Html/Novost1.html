@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset='utf-8'>
+    <meta http-equiv='X-UA-Compatible' content='IE=edge'>
+    <title>Algebra</title>
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <link rel="stylesheet" type="text/css" href="../Css/Novost.css">
+    <link rel="stylesheet" type="text/css" href="../Css/Navbar.css">
+    <link rel="stylesheet" type="text/css" href="../Css/Kontakt.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet" 
+    integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+</head>
+<body>
+  <div class="Kontakt">
+    <div class="KontaktCard">
+        <form class="form-group" action="https://www.fulek.com/mvc/supit/project-contact-form" method="post" target="_blank">
+        <h4>Kontakt</h4>
+          <label for="FullName">Puno ime</label>
+          <input type="text" id="FullName" name="FullName" required class="input-group">
+          <label for="Email">Email</label>
+          <input type="email" id="Email" name="Email" required class="input-group">
+          <p>Važnost poruke</p>
+          <select id="Importance" name="Importance" required class="form-select" aria-label="Default select example">
+            <option value="Low">Niska</option>
+            <option value="Medium">Srednja</option>
+            <option value="High">Visoka</option>
+          </select>
+          <label for="Message">Poruka</label>
+          <div class="form-floating">
+             <textarea id="Message" name="Message" required class="form-control" placeholder="Leave message here" style="height: 100px"></textarea>
+             <label for="floatingTextarea2"></label>
+          </div>
+          <div class="form-check">
+             <label class="form-check-label" for="flexCheckDefault">
+             Želim primati obavijesti
+             </label>
+             <input name="ReceiveNewsletter" class="form-check-input" type="checkbox" type="checkbox" id="ReceiveNewsletter">
+          </div>
+          <button type="submit" value="Submit" class="btn btn-primary">Pošalji</button>
+          <button type="button" class="btn btn-secondary" id="close_form">Odustani</button>
+        </form>
+    </div>
+</div>
+  </div>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-body-tertiary" data-bs-theme="dark">
+            <div class="container-fluid">
+              <img class="navbar-brand" href="#" src="../Image/Algebra-logo.png" width="30"></a>
+              <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+              </button>
+              <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item">
+                        <a class="nav-link" href="Prijavi_se.html">Prijavi se</a>
+                      </li>
+                  <li class="nav-item">
+                    <a class="nav-link" aria-current="page" href="Index.html">Početna</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="O_nama.html">O nama</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Novosti.html">Novosti</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="Nastavni_Plan.html" id="nastavni_plan">Nastavni plan</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" id="kontakt_form" onclick="">Kontakt</a>
+                  </li>
+                </ul>
+              </div>
+            </div>
+          </nav>
+    </header>
+    <main>
+        <div class="bgNovost" id="bg_novost" style="background-image: url(../Image/novost1.jpg);">
+            <h1>Student Josip Stanešić 12. je sistemaš svijeta i dobitnik medalje izvrsnosti</h1>
+        </div>
+        <div class="naslovNovost">
+            <h1>WorldSkills natjecanje - Kazan 2019.</h1>
+        </div>
+        <div class="contentNovost">
+            <p>
+                Nakon godinu dana priprema za natjecanje WorldSkills
+                Kazan 2019 na kojem je sudjelovalo 1300 natjecatelja iz
+                cijelog svijeta, trud se itekako isplatio. Josip,
+                student 3. godine preddiplomskog studija sistemskog
+                inženjerstva osvojio je 12. mjesto u vještini IT
+                Networks and System Administration te osvojio medalju
+                izvrsnosti! Čestitke Josipu ali i njegovim/našim
+                mentorima koji su ga pripremali za ovo natjecanje –
+                voditelju studija sistemskog inženjerstva Silviju
+                Papiću, voditelju katedre za operacijske sustave –
+                Vedranu Dakiću i asistentu na studiju sistemskog
+                inženjerstva – Jasminu Redžepagiću. Čestitke i našem
+                studentu 3.godine preddiplomskog studija programskog
+                inženjerstva Josipu Horvatu i mentoru voditelju katedre
+                za programsko inženjerstvo - Goranu Đambiću na osvojenom
+                16.mjestu u vještini IT Software Solutions for Business.
+            </p>
+        </div>
+        <div class="galleryNovost">
+            <a class="galleryImg" target="_blank" href="../Image/galerija1.jpg">
+              <img src="../Image/galerija1.jpg">
+            </a>
+            <a class="galleryImg" target="_blank" href="../Image/galerija2.jpg">
+              <img src="../Image/galerija2.jpg">
+            </a>
+        </div>
+        <div class="videoNovost">
+            <video controls>
+                <source src="../Video/worldskills.mp4" type=video/mp4>
+            </video>
+        </div>
+    </div>
+    </main>
+    <footer>
+      <div class="footerBg">
+        <h1>BUDI IZVRSTAN U ONOME ŠTO VOLIŠ.</h1>
+        <h1>ZAISKRI!</h1>
+      </div>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js" 
+    integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="../Js/AuthBlock.js"></script>
+    <script src="../Js/Kontakt.js"></script>
+</body>
+</html>
